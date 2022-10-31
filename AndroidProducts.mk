@@ -12,8 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_guamna.mk $(LOCAL_DIR)/lineage_guamna.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_guamna.mk $(LOCAL_DIR)/evolution_guamp.mk
 
 COMMON_LUNCH_CHOICES += \
-    aosp_guamna-eng \
-    aosp_guamna-userdebug
+    evolution_guamp-eng \
+    evolution_guamp-userdebug
+    evolution_guamp-user

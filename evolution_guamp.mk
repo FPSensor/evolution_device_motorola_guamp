@@ -13,12 +13,12 @@
 # limitations under the License.
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, device/motorola/guamna/device.mk)
+$(call inherit-product, device/motorola/guamp/device.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-PRODUCT_NAME := aosp_guamna
-PRODUCT_DEVICE := guamna
-PRODUCT_MODEL := moto g play 2021 (AOSP)
+PRODUCT_NAME := evolution_guamp
+PRODUCT_DEVICE := guamp
+PRODUCT_MODEL := Moto G9 Play
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola

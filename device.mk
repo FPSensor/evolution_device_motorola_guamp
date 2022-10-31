@@ -12,8 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# This is not AOSP
+TARGET_BUILDS_AOSP := false
+
 # Device path
-DEVICE_PATH := device/motorola/guamna/rootdir
+DEVICE_PATH := device/motorola/guamp/rootdir
 
 # Device Specific Permissions
 PRODUCT_COPY_FILES := \
@@ -34,8 +37,8 @@ PRODUCT_COPY_FILES += \
 
 # Device Init
 PRODUCT_PACKAGES += \
-    fstab.guamna \
-    ramdisk-fstab.guamna \
+    fstab.guamp \
+    ramdisk-fstab.guamp \
     init.recovery.qcom.rc
 
 # Telephony Packages (AOSP)
@@ -45,9 +48,9 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-   guamnaFrameworkOverlay \
-   guamnaMotoActionsOverlay \
-   guamnaSystemUIOverlay
+   guampFrameworkOverlay \
+   guampMotoActionsOverlay \
+   guampSystemUIOverlay
 
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi
@@ -60,4 +63,4 @@ PRODUCT_PROPERTY_OVERRIDES := \
 $(call inherit-product, device/motorola/sm4250-common/platform.mk)
 
 # include board vendor blobs
-$(call inherit-product-if-exists, vendor/motorola/guamna/guamna-vendor.mk)
+$(call inherit-product-if-exists, vendor/motorola/guamna/guamp-vendor.mk)

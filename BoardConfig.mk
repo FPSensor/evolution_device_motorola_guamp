@@ -14,7 +14,7 @@
 
 include device/motorola/sm4250-common/PlatformConfig.mk
 
-TARGET_BOOTLOADER_BOARD_NAME := guamna
+TARGET_BOOTLOADER_BOARD_NAME := guamp
 
 # Platform
 PRODUCT_PLATFORM := bengal

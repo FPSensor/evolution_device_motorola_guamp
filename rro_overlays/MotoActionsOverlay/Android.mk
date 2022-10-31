@@ -5,7 +5,7 @@ LOCAL_IS_RUNTIME_RESOURCE_OVERLAY := true
 
 LOCAL_CERTIFICATE := platform
 
-LOCAL_PACKAGE_NAME := guamnaMotoActionsOverlay
+LOCAL_PACKAGE_NAME := guampMotoActionsOverlay
 
 LOCAL_RESOURCE_DIR := \
     $(LOCAL_PATH)/res

@@ -5,7 +5,7 @@ LOCAL_IS_RUNTIME_RESOURCE_OVERLAY := true
 
 LOCAL_CERTIFICATE := platform
 
-LOCAL_PACKAGE_NAME := guamnaSystemUIOverlay
+LOCAL_PACKAGE_NAME := guampSystemUIOverlay
 
 LOCAL_RESOURCE_DIR := \
     $(LOCAL_PATH)/res
